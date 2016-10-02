@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CatalystNoclip.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="overlayText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DEATHS: </Value>
+    </Setting>
+    <Setting Name="resetHotkey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">62</Value>
+    </Setting>
+    <Setting Name="overlayColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="overlayToggleHotkey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">61</Value>
+    </Setting>
+    <Setting Name="persistentDeath" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="deathCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

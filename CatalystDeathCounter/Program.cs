@@ -15,9 +15,8 @@ namespace CatalystDeathCounter
         [STAThread]
         static void Main()
         {
-            // If multiple instances use the AutoHotKey DLL, it will
-            // throw an error.
-            if (Process.GetProcessesByName("CatalystNoclip").Length > 1)
+            // Let's avoid multiple intsances incrementing the death count...
+            if (Process.GetProcessesByName("CatalystDeathCounter").Length > 1)
             {
                 MessageBox.Show("You can only run one instance of this app at a time!", "ERROR: Cannot start", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
